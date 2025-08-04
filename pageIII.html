@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resources</title>
+  <link rel="stylesheet" href="pageIII.css">
+</head>
+<body>
+  <svg style="display: none;">
+    <filter id="liquidFilter">
+      <feTurbulence 
+        type="turbulence"
+        baseFrequency="0.01"
+        numOctaves="1.125"
+        result="turbulence"
+      />
+       <feDisplacementMap in="SourceGraphic"in2="turbulence" scale="200" xChannelSelector="R" yChannelSelector="G"/>
+        
+    </filter>
+  </svg>
+  
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/000/459/729/small_2x/1403.i030.041.F.m004.c5.atom_logo_on_white.jpg" alt="Physiquaa" loading="lazy">
+        <span>Physiquaa Guide</span>
+      </div>
+      <ul>
+        <li class="home"><a href="index.html">Home</a></li>
+        <li class="syllabus"><a href="pageII.html">Syllabus</a></li>
+        <li class="resources"><a href="pageIII.html">Resources</a></li>
+        <li class="contact"><a href="error.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="page-title">
+    <h1>Physics Resources</h1>
+    <p>Comprehensive collection of educational materials, from world-class YouTube channels 
+       to renowned textbooks that have shaped physics education for generations.</p>
+  </section>
+
+  <div class="resources-container">
+    
+    <div class="resource-section youtube-section">
+      <h2 class="section-title">YouTube Channels</h2>
+      <p class="section-description">Learn physics from the world's best educators through engaging video content</p>
+      
+      <div class="resource-grid">
+        <div class="resource-item youtube-item">
+          <div class="resource-icon">📺</div>
+          <div class="resource-title">3Blue1Brown</div>
+          <div class="resource-author">Grant Sanderson</div>
+          <div class="resource-description">
+            Mathematical concepts explained visually with stunning animations. 
+            Perfect for understanding calculus, linear algebra, and mathematical physics.
+          </div>
+          <a href="https://www.youtube.com/@3blue1brown" class="resource-link" target="_blank">Watch Channel</a>
+        </div>
+        
+        <div class="resource-item youtube-item">
+          <div class="resource-icon">⚛️</div>
+          <div class="resource-title">Physics Explained</div>
+          <div class="resource-author">Dom Gurnett</div>
+          <div class="resource-description">
+            Clear explanations of complex physics concepts from quantum mechanics 
+            to relativity, with excellent visual demonstrations.
+          </div>
+          <a href="https://www.youtube.com/@PhysicsExplainedVideos" class="resource-link" target="_blank">Watch Channel</a>
+        </div>
+        
+        <div class="resource-item youtube-item">
+          <div class="resource-icon">🔬</div>
+          <div class="resource-title">Veritasium</div>
+          <div class="resource-author">Derek Muller</div>
+          <div class="resource-description">
+            Science education through experiments and investigations. 
+            Explores fascinating physics phenomena with real-world applications.
+          </div>
+          <a href="https://www.youtube.com/@veritasium" class="resource-link" target="_blank">Watch Channel</a>
+        </div>
+        
+        <div class="resource-item youtube-item">
+          <div class="resource-icon">📚</div>
+          <div class="resource-title">Khan Academy Physics</div>
+          <div class="resource-author">Sal Khan</div>
+          <div class="resource-description">
+            Comprehensive physics curriculum from basics to advanced topics. 
+            Step-by-step problem solving and concept explanations.
+          </div>
+          <a href="https://www.youtube.com/@khanacademy" class="resource-link" target="_blank">Watch Channel</a>
+        </div>
+        
+        <div class="resource-item youtube-item">
+          <div class="resource-icon">⚡</div>
+          <div class="resource-title">MinutePhysics</div>
+          <div class="resource-author">Henry Reich</div>
+          <div class="resource-description">
+            Physics concepts explained in simple, quick videos with hand-drawn animations. 
+            Perfect for quick understanding of complex topics.
+          </div>
+          <a href="https://www.youtube.com/@minutephysics" class="resource-link" target="_blank">Watch Channel</a>
+        </div>
+        
+        <div class="resource-item youtube-item">
+          <div class="resource-icon">🌌</div>
+          <div class="resource-title">PBS Space Time</div>
+          <div class="resource-author">Matt O'Dowd</div>
+          <div class="resource-description">
+            Deep dives into modern physics, cosmology, and space-time concepts. 
+            Advanced topics explained accessibly.
+          </div>
+          <a href="https://www.youtube.com/@pbsspacetime" class="resource-link" target="_blank">Watch Channel</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="resource-section books-section">
+      <h2 class="section-title">Essential Physics Textbooks</h2>
+      <p class="section-description">Time-tested textbooks that have educated generations of physicists and engineers</p>
+      
+      <div class="resource-grid">
+        <div class="resource-item book-item">
+          <div class="resource-icon">📖</div>
+          <div class="resource-title">Physics for Scientists and Engineers</div>
+          <div class="resource-author">Raymond A. Serway & John W. Jewett</div>
+          <div class="resource-description">
+            Comprehensive coverage of classical and modern physics with excellent problem sets. 
+            Widely used in university courses worldwide.
+          </div>
+          <a href="#" class="resource-link">View Details</a>
+        </div>
+        
+        <div class="resource-item book-item">
+          <div class="resource-icon">📘</div>
+          <div class="resource-title">Calculus and Analytic Geometry</div>
+          <div class="resource-author">George B. Thomas Jr.</div>
+          <div class="resource-description">
+            Essential mathematical foundation for physics students. 
+            Clear explanations of calculus concepts with physics applications.
+          </div>
+          <a href="#" class="resource-link">View Details</a>
+        </div>
+        
+        <div class="resource-item book-item">
+          <div class="resource-icon">📗</div>
+          <div class="resource-title">Fundamentals of Physics</div>
+          <div class="resource-author">David Halliday, Robert Resnick & Jearl Walker</div>
+          <div class="resource-description">
+            Classic introductory physics textbook known for its clear explanations 
+            and extensive problem sets covering all major physics topics.
+          </div>
+          <a href="#" class="resource-link">View Details</a>
+        </div>
+        
+        <div class="resource-item book-item">
+          <div class="resource-icon">📙</div>
+          <div class="resource-title">Physics: Principles with Applications</div>
+          <div class="resource-author">Douglas C. Giancoli</div>
+          <div class="resource-description">
+            Physics concepts presented with real-world applications and examples. 
+            Excellent for understanding practical physics applications.
+          </div>
+          <a href="#" class="resource-link">View Details</a>
+        </div>
+        
+        <div class="resource-item book-item">
+          <div class="resource-icon">📕</div>
+          <div class="resource-title">Introduction to Electrodynamics</div>
+          <div class="resource-author">David J. Griffiths</div>
+          <div class="resource-description">
+            The gold standard for undergraduate electromagnetism. 
+            Clear mathematical treatment of electric and magnetic fields.
+          </div>
+          <a href="#" class="resource-link">View Details</a>
+        </div>
+        
+        <div class="resource-item book-item">
+          <div class="resource-icon">📓</div>
+          <div class="resource-title">Introduction to Quantum Mechanics</div>
+          <div class="resource-author">David J. Griffiths</div>
+          <div class="resource-description">
+            Accessible introduction to quantum mechanics with clear explanations 
+            and worked examples. Essential for modern physics understanding.
+          </div>
+          <a href="#" class="resource-link">View Details</a>
+        </div>
+        
+        <div class="resource-item book-item">
+          <div class="resource-icon">📔</div>
+          <div class="resource-title">Classical Mechanics</div>
+          <div class="resource-author">Herbert Goldstein</div>
+          <div class="resource-description">
+            Advanced treatment of classical mechanics using Lagrangian and Hamiltonian formulations. 
+            Graduate-level comprehensive reference.
+          </div>
+          <a href="#" class="resource-link">View Details</a>
+        </div>
+        
+        <div class="resource-item book-item">
+          <div class="resource-icon">📒</div>
+          <div class="resource-title">Thermal Physics</div>
+          <div class="resource-author">Charles Kittel & Herbert Kroemer</div>
+          <div class="resource-description">
+            Clear presentation of thermodynamics and statistical mechanics. 
+            Bridges classical thermodynamics with modern statistical approaches.
+          </div>
+          <a href="#" class="resource-link">View Details</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <footer>
+     <section class="heads">
+      <div class="logo"><img src="https://static.vecteezy.com/system/resources/thumbnails/000/459/729/small_2x/1403.i030.041.F.m004.c5.atom_logo_on_white.jpg" alt=""></div>
+      <ul>
+        <li class="ft-home"><a href="index.html">Home</a></li>
+        <li class="ft-syllabus"><a href="pageII.html">Syllabus</a></li>
+        <li class="ft-resources"><a href="error.html">Resources</a></li>
+        <li class="ft-contact"><a href="pageIII.html">Contact</a></li>
+      </ul>
+      <div class="social-icons">
+        <a href="https://github.com/MuhammadEltokhy" class="social-link github" title="GitHub">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+          </svg>
+        </a>
+        <a href="www.linkedin.com/in/mohamed-gamal-eltokhy-783633332" class="social-link linkedin" title="LinkedIn">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+          </svg>
+        </a>
+      </div>
+    </section>
+    
+    <section class="lanc">
+      <p>" all copy rights are saved "
+        <br>
+      " Created by <span>Muhammad Eltokhy</span>,
+      " front-end developer "</p>
+    </section>
+  </footer> 
+  </body>
+</html>
