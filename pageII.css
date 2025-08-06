@@ -1,6 +1,6 @@
 @font-face{
     font-family: 'Keania';
-    src: url(data:font/truetype;charset=utf-8;base64,) format('truetype');
+    src: url('KeaniaOne-Regular.ttf') format('truetype');
     font-display: swap;
 }
 
@@ -174,7 +174,7 @@ header{
     width: 100%;
     transform: translate(-25%, -25%);
     border-radius: 25px;
-    padding: 3px;
+    padding: 1px;
     z-index: -10;
     background: conic-gradient(from var(--angle), rgb(0, 42, 255), rgb(0, 140, 255), rgb(0, 242, 255), transparent 90%);
     position: absolute;
@@ -621,4 +621,5 @@ footer{
     .study-tips{
         padding: 1rem;
     }
+
 }
