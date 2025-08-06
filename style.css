@@ -243,7 +243,7 @@ header .navbar ul li:first-child::before{
 }
 
 .intro .content .text span{
-    font-size: xx-large;
+    font-size: xxx-large;
     margin-bottom: 1.069em;
     text-shadow: none;
     font-weight: light;
@@ -273,6 +273,7 @@ header .navbar ul li:first-child::before{
     text-align: start;
     padding-left: 5px;
     width: 25em;
+    font-size: 2em;
     position: static;
 }
 
@@ -297,7 +298,7 @@ header .navbar ul li:first-child::before{
     width: 80%;
     height: 80%;
     background: radial-gradient(rgb(24, 24, 255), rgba(7, 40, 205, 0.678), 
-    rgba(6, 6, 173, 0.55), transparent, transparent);
+    rgba(6, 6, 173, 0.55), transparent, transparent, transparent);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -310,7 +311,7 @@ header .navbar ul li:first-child::before{
     height: 70%;
     border-radius: 50%;
     object-fit: contain;
-    filter: brightness(1.2) contrast(1.1);
+    filter: brightness(1.2) contrast(1.1) invert(1);
 }
 
 .abt-bg{
@@ -894,3 +895,4 @@ footer{
         padding: 1.5rem;
     }
 }
+
