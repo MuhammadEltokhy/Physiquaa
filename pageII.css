@@ -34,7 +34,10 @@ body{
     line-height: 1.6;
     overflow-x: hidden;
 }
-
+::selection{
+    background-color: white;
+    color: blue;
+}
 header{
     top: 0;
     left: 0;
@@ -623,4 +626,5 @@ footer{
     }
 
 }
+
 
