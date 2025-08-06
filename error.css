@@ -34,6 +34,10 @@ body{
     line-height: 1.6;
     overflow-x: hidden;
 }
+::selection{
+    background-color: white;
+    color: blue;
+}
 
 header{
     top: 0;
@@ -623,4 +627,5 @@ footer{
     .physics-formula{
         font-size: 0.7rem;
     }
+
 }
