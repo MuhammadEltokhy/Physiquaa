@@ -12,7 +12,7 @@
 
 :root{
     --bg-color: linear-gradient(45deg, black, rgba(6, 2, 99, 0.973), rgb(10, 10, 143));
-    --text-color: rgb(87, 173, 169);
+    --text-color: rgb(174, 239, 235);
     --main-font: 'Keania', 'Arial', sans-serif;
     --page-bg-color: linear-gradient(45deg, transparent, rgba(37, 37, 163, 0.865), rgb(12, 72, 128));
     --accent-blue: rgb(55, 119, 255);
@@ -172,7 +172,7 @@ header{
     content: "";
     height: 100%;
     width: 100%;
-    transform: translate(-25%, -25%);
+    transform: translate(-18%, -25%);
     border-radius: 25px;
     padding: 3px;
     z-index: -10;
@@ -356,15 +356,15 @@ header{
 
 .resource-link:hover{
     transform: scale(1.05);
-    box-shadow: 0 5px 15px rgba(45, 178, 205, 0.4);
+    box-shadow: 0 5px 15px rgba(176, 7, 7, 0.4);
 }
 
 .youtube-section .resource-link{
-    background: linear-gradient(45deg, #ff0000, #ff4444);
+    background: linear-gradient(45deg, #95150b, #a75208);
 }
 
 .books-section .resource-link{
-    background: linear-gradient(45deg, #ffa500, #ffcc00);
+    background: linear-gradient(45deg, #c2891eba, #967a0b);
 }
 
 footer{
