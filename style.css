@@ -12,7 +12,7 @@
 
 :root{
     --bg-color: linear-gradient(45deg, black, rgba(6, 2, 99, 0.973), rgb(10, 10, 143));
-    --text-color: rgb(87, 173, 169);
+    --text-color:rgb(174, 239, 235);
     --main-font: 'Keania', 'Arial', sans-serif;
     --page-bg-color: linear-gradient(45deg, transparent, rgba(37, 37, 163, 0.865), rgb(12, 72, 128));
     --accent-blue: rgb(55, 119, 255);
@@ -34,8 +34,10 @@ body{
     line-height: 1.6;
     overflow-x: hidden;
 }
-
-/* Header Styles */
+::selection{
+    background-color: white;
+    color: blue;
+}
 header{
     top: 0;
     left: 0;
@@ -241,8 +243,7 @@ header .navbar ul li:first-child::before{
 }
 
 .intro .content .text span{
-    font-size: xxx-large;
-    position: absolute;
+    font-size: 2.9em;
     margin-bottom: 1.069em;
     text-shadow: none;
     font-weight: light;
@@ -251,6 +252,15 @@ header .navbar ul li:first-child::before{
 .intro .content .text .animation{
     animation: shown 1.69s infinite ease;
     font-weight: lighter;
+    font-size: xxx-large;
+}
+.intro .content .text p{
+    text-align: start;
+    padding-left: 5px;
+    width: 25em;
+    text-shadow: none;
+    font-size: 1.5em;
+    position: static;
 }
 
 @keyframes shown{
@@ -268,13 +278,7 @@ header .navbar ul li:first-child::before{
     }
 }
 
-.intro .content .text p{
-    text-align: start;
-    padding-left: 5px;
-    width: 25em;
-    font-size: 1.3em;
-    position: static;
-}
+
 
 .intro .content .text::after{
     content: "";
@@ -520,8 +524,6 @@ header .navbar ul li:first-child::before{
     line-height: 1.6;
     opacity: 0.9;
 }
-
-/* Famous Scientists Section */
 .fms-bg{
     padding: 4rem 0;
     background: linear-gradient(45deg, rgba(0,0,0,0.3), rgba(6, 2, 99, 0.2));
@@ -727,8 +729,6 @@ footer{
     transition: 0.5s all ease;
     font-weight: bold;
 }
-
-/* Responsive Design */
 @media (max-width: 1024px) {
     .navbar{
         gap: 20vw;
@@ -804,7 +804,7 @@ footer{
     }
     
     .intro .content .text span{
-        font-size: large;
+        font-size: 2.5em;
     }
     
     .intro .content .text p{
@@ -894,5 +894,4 @@ footer{
         padding: 1.5rem;
     }
 }
-
 
