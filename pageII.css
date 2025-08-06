@@ -172,7 +172,7 @@ header{
     content: "";
     height: 100%;
     width: 100%;
-    transform: translate(-25%, -25%);
+    transform: translate(-20%, -25%);
     border-radius: 25px;
     padding: 1px;
     z-index: -10;
@@ -623,3 +623,4 @@ footer{
     }
 
 }
+
